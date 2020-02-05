@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #E8F1F2;
+  font-family: 'Lora', serif;
+  }
+
+.card > h1 {
+  font-weight: 900;
+  font-family: "JetBrains Mono";
+  color:#31493C;
+  margin: 20px 0px;
+  text-align: center;
+  align-content: center;
+}
+
+.display_pic {
+  max-width: 100%
+  /*border-radius: 15px;*/
+}
+
+
+h3 {
+  font-family: "JetBrains Mono";
+  color:#2F4550;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+
+h4 {
+  font-family: "JetBrains Mono";
+  color:#2F4550;
+  text-align: center;
+  font-size: 18px;
+}
+
+.button_container {
+  margin: 25px 0 0 0;
+}
+
+.button {
+  color: #31493C;
+  background-color: white;
+  font-family: "JetBrains Mono";
+  font-size: 10px;
+  font-weight: 100;
+  border-color: #31493C;
+  border-width: 2px;
+  border-style: solid;
+  padding: 15px 20px;
+  border-radius: 15px;
+  width: 30%;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: white;
+  background-color: #31493C;
+  font-family: "JetBrains Mono";
+  font-size: 10px;
+  font-weight: 100;
+  border-color: #31493C;
+  border-width: 2px;
+  border-style: solid;
+  padding: 15px 20px;
+  border-radius: 15px;
+  width: 30%;
+  margin:0 auto;
+}
+
+p {
+  color: #2F4550;
+  font-size: 15px;
+}
+
+.card > .profile_picture{
+  border-radius: 50%;
+}
+
+.card {
+  padding: 30px;
+  background-color: white;
+  border-radius: 2%;
+  margin: 20px 25% 20px 25%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  align-content: center;
+
+}
+
+.map {
+  max-width: 100%
+}
+
+
+
+li > a {
+  color:#31493C;
+  padding: 0;
+}
+
+#middle_icon {
+  padding-left:8px;
+  padding-right:8px;
+}
+
+li > a:hover {
+  color:#E8F1F2;
+}
+
+
+ul > li{
+  display: inline-block;
+  list-style:none;
+  font-size: 50px;
+}
+
+ul {
+  padding: 0;
+}
